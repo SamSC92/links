@@ -1,0 +1,50 @@
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-10px);}
+  60%{transform: translateY(-5px);}
+}
+h1{
+  font-size: 40px;
+  margin-top: 250px;
+  font-family: 'Westgate', sans-serif;
+  text-shadow: 2px 2px 4px #000;
+  display: inline-block;
+  position: relative;
+}
+h2 {
+ font-size: 18px;
+ text-shadow: 2px 2px 4px #00000
+}
+body {
+  background:#24a7f0;
+ font-family: 'Westgate', sans-serif; 
+ color: #e6583f;
+ text-align: center;
+ transition: transform 0.5 ease;
+}
+a {
+  transition: transform 0.5s ease;
+ background-color: #f0ca41;
+ font-size: 30px;
+ border-radius: 60px;
+ padding: 40px;
+ width: 200px;
+ display: block;
+ border: 2px solid #e6583f;
+ text-align: center;
+ margin: 10px auto;
+ color: #e6583f;
+ text-decoration: none;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+animation: bounce 1s infinite;
+}
+a:hover {
+  transform: scale(1.05);
+  background-color: #b23fe6;
+}
+h1:hover {
+  transform: scale(1.05);
+}
+href {
+  animation: bounce 2s infinite;
+}
